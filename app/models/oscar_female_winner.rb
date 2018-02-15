@@ -1,0 +1,2 @@
+class OscarFemaleWinner < ApplicationRecord
+end

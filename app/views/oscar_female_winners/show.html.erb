@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Year:</strong>
+  <%= @oscar_female_winner.year %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @oscar_female_winner.age %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @oscar_female_winner.name %>
+</p>
+
+<p>
+  <strong>Movie:</strong>
+  <%= @oscar_female_winner.movie %>
+</p>
+
+<%= link_to 'Edit', edit_oscar_female_winner_path(@oscar_female_winner) %> |
+<%= link_to 'Back', oscar_female_winners_path %>
